@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script src="js/swiper.js"></script>
-    <script defer src="js/script.js"></script>
-    
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      </script>
+    <script defer src="js/script.js"></script>    
     <title>Rentiz</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header wow animate__animated animate__fadeInDown">
       <div class="header__container">
         <a href="#" class="header__logo"
-          ><img src="img/icons/logo.svg"" alt=""></a
+          ><img src="img/icons/logo.svg" alt="logo"></a
         >                                        
         <div class="header__navigation">
           <nav class="header__menu menu">
@@ -41,9 +49,9 @@
     <main class="page">
       <section class="hero ">
         <div class="hero__container">
-          <div class="hero__content">
-            <h1 class="hero__title">Perfect way to buy and sell a home</h1>
-            <p class="hero__text text">Diam vitae, nec mattis lectus quam pretium amet facilisis. Urna, massa aliqua dui pellentesque. Ac, gravida in eget non amet eget purus non.</p>
+          <div class="hero__content ">
+            <h1 class="hero__title wow animate__animated animate__fadeInLeft">Perfect way to buy and sell a home</h1>
+            <p class="hero__text text wow animate__animated animate__fadeInLeft">Diam vitae, nec mattis lectus quam pretium amet facilisis. Urna, massa aliqua dui pellentesque. Ac, gravida in eget non amet eget purus non.</p>
             <div class="hero__filter filter">
               <div class="filter__block block-filter">
                 <div class="block-filter__button">
@@ -90,7 +98,7 @@
               </div>
             </div>
           </div>
-          <div class="hero__img"><img src="img/hero-bg.jpg" alt="house">
+          <div class="hero__img wow animate__animated animate__fadeInRight"><img src="img/hero-bg.jpg" alt="house">
           </div>
         </div>
         <svg class="hero-deco" width="195.000000" height="500.000000" viewBox="0 0 195 500" fill="var(--accent-color)">
@@ -108,8 +116,8 @@
       </section>
       <section class="featured">
         <div class="featured__container">
-          <h2 class="featured__title title">Featured In</h2>
-          <div class="featured__box">
+          <h2 class="featured__title title wow animate__animated animate__fadeInLeft">Featured In</h2>
+          <div class="featured__box wow animate__animated animate__fadeIn">
             <div class="featured__item">
               <img src="img/logos/logo1.svg" alt="featured logo" class="featured___img">
             </div>
@@ -130,8 +138,8 @@
       </section>
       <section class="popular">
         <div class="popular__container">
-          <h2 class="popular__title title">Popular Residence</h2>
-          <div class="popular__slider">
+          <h2 class="popular__title title wow animate__animated animate__fadeInLeft">Popular Residence</h2>
+          <div class="popular__slider wow animate__animated animate__fadeIn">
             <div class="swiper popular-slider">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper ">
@@ -282,15 +290,15 @@
               </div>       
             </div>
           </div>
-          <div class="popular__link">
+          <div class="popular__link animate__animated animate__fadeIn">
             <a class="link" href="#">view all properties</a>
           </div>
         </div>
       </section>
       <section class="why">
         <div class="why__container">
-          <h2 class="title why__title">why to choose us</h2>
-          <ul class="why__body">
+          <h2 class="title why__title wow animate__animated animate__fadeInLeft">why to choose us</h2>
+          <ul class="why__body wow animate__animated animate__fadeIn">
             <li class="why__item item-why">
               <div class="item-why__img">       
                 <svg fill="var(--accent-color)" width="800px" height="800px" viewBox="-0.04 0 31.793 31.793" xmlns="http://www.w3.org/2000/svg">
@@ -348,7 +356,7 @@
             </li>
             <li class="why__item item-why">
               <div class="item-why__img">                
-                <svg fill="var(--accent-color)" width="800px" height="800px" viewBox="0 0 512 512" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><title/><path d="M256,62.24c-106.82,0-193.72,86.56-193.72,192.94s86.9,193,193.72,193,193.72-86.56,193.72-192.95S362.82,62.24,256,62.24Zm0,369.89c-98,0-177.72-79.38-177.72-176.95S158,78.24,256,78.24s177.72,79.38,177.72,176.94S354,432.13,256,432.13Zm127.58-103.6h0v0h0a8,8,0,0,1-10.9,2.91l-20-11.51a8,8,0,0,1,8-13.87l12.91,7.41A130.31,130.31,0,0,0,387,263.19H372.18a8,8,0,0,1,0-16H387a129.36,129.36,0,0,0-13.56-50.32l-12.87,7.4a7.91,7.91,0,0,1-4,1.07,8,8,0,0,1-4-14.94l12.8-7.35a131.91,131.91,0,0,0-37-36.83L321,159a8,8,0,0,1-13.84-8l7.39-12.75A130.71,130.71,0,0,0,264,124.73v14.76a8,8,0,0,1-16,0V124.73a130.71,130.71,0,0,0-50.56,13.5L204.83,151A8,8,0,1,1,191,159l-7.41-12.78a132,132,0,0,0-37,36.82l12.8,7.36a8,8,0,1,1-8,13.87l-12.88-7.4A129.36,129.36,0,0,0,125,247.18h14.86a8,8,0,0,1,0,16H125a130.31,130.31,0,0,0,13.53,50.33l12.9-7.41a8,8,0,1,1,8,13.87l-20,11.51a8,8,0,0,1-10.89-2.91h0l0,0h0a146.26,146.26,0,0,1-19.71-72.94c0-.14,0-.27,0-.41s0-.24,0-.36A145.42,145.42,0,0,1,128,182.59a7.54,7.54,0,0,1,.38-.75,7.25,7.25,0,0,1,.53-.79,148.09,148.09,0,0,1,52.63-52.42,7.52,7.52,0,0,1,.75-.5,8.52,8.52,0,0,1,.8-.4,146.86,146.86,0,0,1,72.51-19.25h.72a146.86,146.86,0,0,1,72.51,19.25,8.52,8.52,0,0,1,.8.4,7.52,7.52,0,0,1,.75.5,148,148,0,0,1,52.63,52.42,7.25,7.25,0,0,1,.53.79c.14.25.27.5.38.75a145.42,145.42,0,0,1,19.33,72.23c0,.12,0,.24,0,.37s0,.26,0,.4a146.26,146.26,0,0,1-19.7,72.92Zm-96.33-73.37a31.24,31.24,0,0,0-39.42-30l-27.56-47.54a8,8,0,1,0-13.84,8L234,233.15a31.09,31.09,0,0,0,22,53.14,31.5,31.5,0,0,0,8.15-1.08l5.28,9.12a8,8,0,0,0,13.84-8L278,277.22A31.13,31.13,0,0,0,287.25,255.16Zm-46.43,0a15.16,15.16,0,0,1,7.59-13.08h0a15.1,15.1,0,1,1-7.6,13.08Zm61.61,84.5H209.57a8,8,0,0,0-8,8v46.23a8,8,0,0,0,8,8h92.86a8,8,0,0,0,8-8V347.66A8,8,0,0,0,302.43,339.66Zm-8,46.23H217.57V355.66h76.86Z"/></svg>
+                <svg fill="var(--accent-color)" width="800px" height="800px" viewBox="0 0 512 512" data-name="Layer 1" id="Layer_5" xmlns="http://www.w3.org/2000/svg"><title/><path d="M256,62.24c-106.82,0-193.72,86.56-193.72,192.94s86.9,193,193.72,193,193.72-86.56,193.72-192.95S362.82,62.24,256,62.24Zm0,369.89c-98,0-177.72-79.38-177.72-176.95S158,78.24,256,78.24s177.72,79.38,177.72,176.94S354,432.13,256,432.13Zm127.58-103.6h0v0h0a8,8,0,0,1-10.9,2.91l-20-11.51a8,8,0,0,1,8-13.87l12.91,7.41A130.31,130.31,0,0,0,387,263.19H372.18a8,8,0,0,1,0-16H387a129.36,129.36,0,0,0-13.56-50.32l-12.87,7.4a7.91,7.91,0,0,1-4,1.07,8,8,0,0,1-4-14.94l12.8-7.35a131.91,131.91,0,0,0-37-36.83L321,159a8,8,0,0,1-13.84-8l7.39-12.75A130.71,130.71,0,0,0,264,124.73v14.76a8,8,0,0,1-16,0V124.73a130.71,130.71,0,0,0-50.56,13.5L204.83,151A8,8,0,1,1,191,159l-7.41-12.78a132,132,0,0,0-37,36.82l12.8,7.36a8,8,0,1,1-8,13.87l-12.88-7.4A129.36,129.36,0,0,0,125,247.18h14.86a8,8,0,0,1,0,16H125a130.31,130.31,0,0,0,13.53,50.33l12.9-7.41a8,8,0,1,1,8,13.87l-20,11.51a8,8,0,0,1-10.89-2.91h0l0,0h0a146.26,146.26,0,0,1-19.71-72.94c0-.14,0-.27,0-.41s0-.24,0-.36A145.42,145.42,0,0,1,128,182.59a7.54,7.54,0,0,1,.38-.75,7.25,7.25,0,0,1,.53-.79,148.09,148.09,0,0,1,52.63-52.42,7.52,7.52,0,0,1,.75-.5,8.52,8.52,0,0,1,.8-.4,146.86,146.86,0,0,1,72.51-19.25h.72a146.86,146.86,0,0,1,72.51,19.25,8.52,8.52,0,0,1,.8.4,7.52,7.52,0,0,1,.75.5,148,148,0,0,1,52.63,52.42,7.25,7.25,0,0,1,.53.79c.14.25.27.5.38.75a145.42,145.42,0,0,1,19.33,72.23c0,.12,0,.24,0,.37s0,.26,0,.4a146.26,146.26,0,0,1-19.7,72.92Zm-96.33-73.37a31.24,31.24,0,0,0-39.42-30l-27.56-47.54a8,8,0,1,0-13.84,8L234,233.15a31.09,31.09,0,0,0,22,53.14,31.5,31.5,0,0,0,8.15-1.08l5.28,9.12a8,8,0,0,0,13.84-8L278,277.22A31.13,31.13,0,0,0,287.25,255.16Zm-46.43,0a15.16,15.16,0,0,1,7.59-13.08h0a15.1,15.1,0,1,1-7.6,13.08Zm61.61,84.5H209.57a8,8,0,0,0-8,8v46.23a8,8,0,0,0,8,8h92.86a8,8,0,0,0,8-8V347.66A8,8,0,0,0,302.43,339.66Zm-8,46.23H217.57V355.66h76.86Z"/></svg>
               </div>
               <h3 class="item-why__title">Quickly Process</h3>
               <p class="item-why__text text">
@@ -441,22 +449,20 @@
               </div>
               <div class="reviews-slider-btn reviews-slider-btn-next swiper-button-next">
                 <svg width="23.000000" height="38.000000" viewBox="0 0 23 38" >
-                <path id="Vector" d="M4.56 38L23 19L4.56 0L0 4.7L13.86 19L0 33.29L4.56 38Z"  />
+                <path id="line" d="M4.56 38L23 19L4.56 0L0 4.7L13.86 19L0 33.29L4.56 38Z"  />
               </svg>
               </div>
             </div>
-
-
           </div>
         </div>
       </section>
       <section class="gallery">
         <div class="gallery__container">
-          <div class="gallery__box">
+          <div class="gallery__box wow animate__animated animate__fadeInLeft">
             <div class="gallery__item"><img src="img/gallary/1.jpeg" alt=""></div>
             <div class="gallery__item"><img src="img/gallary/2.jpeg" alt=""></div>
           </div>
-          <div class="gallery__info">
+          <div class="gallery__info wow animate__animated animate__fadeInRight">
               <h2 class="gallery__title title">We help people to find homes</h2>
               <p class="gallery__text text">Mauris orci donec blandit maecenas. Orci lorem purus porttitor massa consectetur. Neque, vestibulum sed varius magna et at. Eu, adipiscing morbi augue justo. Nibh laoreet volutpat quis velit. Blandit aliquam donec sed morbi congue eget lorem viverra porta id lobortis.</p>
               <a href="#" class="gallery__link link">Get in touch</a>          
@@ -480,8 +486,8 @@
         <rect x="47.5" y="83.5" width="83" height="95" fill="var(--accent-color)" stroke="#121B25" stroke-width="7" />
         </svg>
         <div class="begin__container">
-          <p class="begin__slogan">Let’s simply begin with rentiz.</p>
-          <div class="begin__content">
+          <p class="begin__slogan wow animate__animated animate__fadeInLeft">Let’s simply begin with rentiz.</p>
+          <div class="begin__content animate__animated animate__fadeInRight">
             <p class="begin__text text">Neque, vestibulum sed varius magna et at. Eu, adipiscing morbi augue justo. Nibh laoreet volutpat quis velit. Blandit aliquam donec sed morbi congue eget lorem viverra porta id lobortis.</p>
             <div class="begin__link link">Get Started</div>
           </div>
@@ -489,7 +495,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__container">
+      <div class="footer__container wow animate__animated animate__fadeIn">
         <div class="footer__main">
           <div class="footer__block">
             <a href="" class="footer__link"><img src="img/icons/logo.svg" alt="" ></a>
@@ -499,27 +505,27 @@
             <ul class="footer__socials">
               <li class="footer__social"><a  href="">
                 <svg width="20.000000" height="20.000000" viewBox="0 0 20 20" >                
-                <path id="brand / facebook" d="M9.99 0C4.47 0 0 4.47 0 9.99C0 14.98 3.65 19.12 8.43 19.87L8.43 12.89L5.89 12.89L5.89 9.99L8.43 9.99L8.43 7.79C8.43 5.28 9.92 3.9 12.21 3.9C13.3 3.9 14.45 4.1 14.45 4.1L14.45 6.55L13.18 6.55C11.94 6.55 11.56 7.33 11.56 8.12L11.56 9.99L14.33 9.99L13.88 12.88L11.56 12.88L11.56 19.87C16.34 19.12 19.99 14.99 19.99 9.99C19.99 4.47 15.52 0 9.99 0Z" fill-opacity="1.000000" />
+                <path id="facebook" d="M9.99 0C4.47 0 0 4.47 0 9.99C0 14.98 3.65 19.12 8.43 19.87L8.43 12.89L5.89 12.89L5.89 9.99L8.43 9.99L8.43 7.79C8.43 5.28 9.92 3.9 12.21 3.9C13.3 3.9 14.45 4.1 14.45 4.1L14.45 6.55L13.18 6.55C11.94 6.55 11.56 7.33 11.56 8.12L11.56 9.99L14.33 9.99L13.88 12.88L11.56 12.88L11.56 19.87C16.34 19.12 19.99 14.99 19.99 9.99C19.99 4.47 15.52 0 9.99 0Z" fill-opacity="1.000000" />
               </svg>
               </a></li>
               <li class="footer__social">
                 <a href="">
                   <svg width="19.000000" height="19.000000" viewBox="0 0 19 19">
-                <path id="brand / instagram" d="M14.89 0.47C16.1 0.94 17.06 1.89 17.53 3.1C17.79 3.81 17.93 4.56 17.95 5.32C18 6.27 18 6.58 18 9.03C18 11.47 17.99 11.78 17.95 12.74C17.93 13.49 17.79 14.22 17.53 14.92C17.06 16.13 16.1 17.09 14.89 17.56C14.2 17.82 13.46 17.96 12.71 17.98C11.75 18.03 11.44 18.03 9 18.03C6.56 18.03 6.25 18.02 5.29 17.98C4.54 17.95 3.8 17.8 3.1 17.53C1.89 17.06 0.94 16.1 0.47 14.89C0.21 14.19 0.07 13.46 0.05 12.71C0 11.75 0 11.44 0 9C0 6.55 0.01 6.25 0.05 5.29C0.07 4.54 0.21 3.8 0.47 3.1C0.94 1.89 1.89 0.94 3.1 0.47C3.8 0.2 4.54 0.06 5.29 0.05C6.24 0 6.56 0 9 0C11.44 0 11.74 0.01 12.71 0.05C13.46 0.06 14.19 0.21 14.89 0.47ZM16 14.32C16.2 13.78 16.3 13.21 16.31 12.63L16.32 12.63C16.36 11.68 16.36 11.42 16.36 8.98C16.36 6.54 16.35 6.28 16.31 5.33C16.3 4.75 16.19 4.19 16 3.66C15.69 2.87 15.07 2.25 14.29 1.94C13.75 1.75 13.19 1.64 12.62 1.63C11.65 1.58 11.4 1.58 8.96 1.58C6.52 1.58 6.26 1.59 5.31 1.63C4.74 1.64 4.17 1.75 3.64 1.94C2.85 2.25 2.22 2.87 1.92 3.66C1.72 4.2 1.61 4.77 1.61 5.34C1.55 6.31 1.55 6.56 1.55 9C1.55 11.43 1.56 11.7 1.61 12.65C1.62 13.22 1.72 13.79 1.92 14.32C2.22 15.11 2.85 15.73 3.64 16.03C4.17 16.23 4.74 16.34 5.31 16.34C6.27 16.4 6.52 16.4 8.96 16.4C11.4 16.4 11.66 16.39 12.62 16.34C13.19 16.33 13.75 16.23 14.29 16.03C15.07 15.73 15.69 15.11 16 14.32ZM13.8 5.27C14.39 5.27 14.88 4.79 14.88 4.2C14.88 3.6 14.39 3.12 13.8 3.12C13.2 3.12 12.72 3.6 12.72 4.2C12.72 4.79 13.2 5.27 13.8 5.27ZM8.99 4.37C6.44 4.37 4.37 6.44 4.37 8.99C4.37 11.54 6.44 13.61 8.99 13.61C11.54 13.61 13.62 11.54 13.62 8.99C13.62 6.44 11.54 4.37 8.99 4.37ZM8.99 11.99C7.33 11.99 5.99 10.65 5.99 8.99C5.99 7.33 7.33 5.99 8.99 5.99C10.65 5.99 11.99 7.33 11.99 8.99C11.99 10.65 10.65 11.99 8.99 11.99Z"  fill-opacity="1.000000" />
+                <path id="instagram" d="M14.89 0.47C16.1 0.94 17.06 1.89 17.53 3.1C17.79 3.81 17.93 4.56 17.95 5.32C18 6.27 18 6.58 18 9.03C18 11.47 17.99 11.78 17.95 12.74C17.93 13.49 17.79 14.22 17.53 14.92C17.06 16.13 16.1 17.09 14.89 17.56C14.2 17.82 13.46 17.96 12.71 17.98C11.75 18.03 11.44 18.03 9 18.03C6.56 18.03 6.25 18.02 5.29 17.98C4.54 17.95 3.8 17.8 3.1 17.53C1.89 17.06 0.94 16.1 0.47 14.89C0.21 14.19 0.07 13.46 0.05 12.71C0 11.75 0 11.44 0 9C0 6.55 0.01 6.25 0.05 5.29C0.07 4.54 0.21 3.8 0.47 3.1C0.94 1.89 1.89 0.94 3.1 0.47C3.8 0.2 4.54 0.06 5.29 0.05C6.24 0 6.56 0 9 0C11.44 0 11.74 0.01 12.71 0.05C13.46 0.06 14.19 0.21 14.89 0.47ZM16 14.32C16.2 13.78 16.3 13.21 16.31 12.63L16.32 12.63C16.36 11.68 16.36 11.42 16.36 8.98C16.36 6.54 16.35 6.28 16.31 5.33C16.3 4.75 16.19 4.19 16 3.66C15.69 2.87 15.07 2.25 14.29 1.94C13.75 1.75 13.19 1.64 12.62 1.63C11.65 1.58 11.4 1.58 8.96 1.58C6.52 1.58 6.26 1.59 5.31 1.63C4.74 1.64 4.17 1.75 3.64 1.94C2.85 2.25 2.22 2.87 1.92 3.66C1.72 4.2 1.61 4.77 1.61 5.34C1.55 6.31 1.55 6.56 1.55 9C1.55 11.43 1.56 11.7 1.61 12.65C1.62 13.22 1.72 13.79 1.92 14.32C2.22 15.11 2.85 15.73 3.64 16.03C4.17 16.23 4.74 16.34 5.31 16.34C6.27 16.4 6.52 16.4 8.96 16.4C11.4 16.4 11.66 16.39 12.62 16.34C13.19 16.33 13.75 16.23 14.29 16.03C15.07 15.73 15.69 15.11 16 14.32ZM13.8 5.27C14.39 5.27 14.88 4.79 14.88 4.2C14.88 3.6 14.39 3.12 13.8 3.12C13.2 3.12 12.72 3.6 12.72 4.2C12.72 4.79 13.2 5.27 13.8 5.27ZM8.99 4.37C6.44 4.37 4.37 6.44 4.37 8.99C4.37 11.54 6.44 13.61 8.99 13.61C11.54 13.61 13.62 11.54 13.62 8.99C13.62 6.44 11.54 4.37 8.99 4.37ZM8.99 11.99C7.33 11.99 5.99 10.65 5.99 8.99C5.99 7.33 7.33 5.99 8.99 5.99C10.65 5.99 11.99 7.33 11.99 8.99C11.99 10.65 10.65 11.99 8.99 11.99Z"  fill-opacity="1.000000" />
                 </svg>
                 </a>
               </li>
               <li class="footer__social">
                 <a href="">
                   <svg width="21.000000" height="17.000000" viewBox="0 0 21 17" >
-                  <path id="brand / Twitter" d="M20.45 2.01C19.68 2.35 18.86 2.58 17.99 2.68C18.87 2.15 19.55 1.31 19.87 0.31C19.04 0.8 18.13 1.16 17.15 1.35C16.37 0.52 15.25 0 14.02 0C11.65 0 9.72 1.92 9.72 4.29C9.72 4.62 9.76 4.95 9.84 5.26C6.27 5.09 3.11 3.38 0.99 0.78C0.62 1.41 0.41 2.15 0.41 2.94C0.41 4.43 1.17 5.74 2.32 6.51C1.61 6.49 0.95 6.29 0.37 5.97C0.37 5.99 0.37 6.01 0.37 6.03C0.37 8.11 1.85 9.84 3.82 10.24C3.46 10.33 3.08 10.39 2.69 10.39C2.41 10.39 2.14 10.36 1.88 10.31C2.42 12.01 4.01 13.25 5.89 13.29C4.42 14.44 2.57 15.13 0.56 15.13C0.21 15.13 -0.13 15.11 -0.47 15.07C1.43 16.28 3.69 17 6.11 17C14.01 17 18.32 10.46 18.32 4.78C18.32 4.6 18.32 4.41 18.31 4.23C19.15 3.62 19.88 2.87 20.45 2.01Z"  fill-opacity="1.000000" />
+                  <path id="twitter" d="M20.45 2.01C19.68 2.35 18.86 2.58 17.99 2.68C18.87 2.15 19.55 1.31 19.87 0.31C19.04 0.8 18.13 1.16 17.15 1.35C16.37 0.52 15.25 0 14.02 0C11.65 0 9.72 1.92 9.72 4.29C9.72 4.62 9.76 4.95 9.84 5.26C6.27 5.09 3.11 3.38 0.99 0.78C0.62 1.41 0.41 2.15 0.41 2.94C0.41 4.43 1.17 5.74 2.32 6.51C1.61 6.49 0.95 6.29 0.37 5.97C0.37 5.99 0.37 6.01 0.37 6.03C0.37 8.11 1.85 9.84 3.82 10.24C3.46 10.33 3.08 10.39 2.69 10.39C2.41 10.39 2.14 10.36 1.88 10.31C2.42 12.01 4.01 13.25 5.89 13.29C4.42 14.44 2.57 15.13 0.56 15.13C0.21 15.13 -0.13 15.11 -0.47 15.07C1.43 16.28 3.69 17 6.11 17C14.01 17 18.32 10.46 18.32 4.78C18.32 4.6 18.32 4.41 18.31 4.23C19.15 3.62 19.88 2.87 20.45 2.01Z"  fill-opacity="1.000000" />
                 </svg>
               </a>
               </li>
               <li class="footer__social">
                 <a href="">
                   <svg width="20.000000" height="15.000000" viewBox="0 0 20 15" >
-                  <path id="brand / youtube" d="M19.59 2.2C19.36 1.34 18.68 0.66 17.82 0.43C16.26 0 9.99 0 9.99 0C9.99 0 3.73 -0.01 2.16 0.4C1.32 0.63 0.63 1.32 0.4 2.18C-0.02 3.74 -0.02 6.99 -0.02 6.99C-0.02 6.99 -0.02 10.25 0.39 11.81C0.62 12.66 1.29 13.34 2.15 13.57C3.73 14 9.98 14.01 9.98 14.01C9.98 14.01 16.24 14.01 17.81 13.6C18.67 13.37 19.34 12.7 19.58 11.84C19.99 10.28 19.99 7.03 19.99 7.03C19.99 7.03 20.01 3.76 19.59 2.2ZM7.99 10L7.99 4L13.2 7L7.99 10Z"  fill-opacity="1.000000" />
+                  <path id="youtube" d="M19.59 2.2C19.36 1.34 18.68 0.66 17.82 0.43C16.26 0 9.99 0 9.99 0C9.99 0 3.73 -0.01 2.16 0.4C1.32 0.63 0.63 1.32 0.4 2.18C-0.02 3.74 -0.02 6.99 -0.02 6.99C-0.02 6.99 -0.02 10.25 0.39 11.81C0.62 12.66 1.29 13.34 2.15 13.57C3.73 14 9.98 14.01 9.98 14.01C9.98 14.01 16.24 14.01 17.81 13.6C18.67 13.37 19.34 12.7 19.58 11.84C19.99 10.28 19.99 7.03 19.99 7.03C19.99 7.03 20.01 3.76 19.59 2.2ZM7.99 10L7.99 4L13.2 7L7.99 10Z"  fill-opacity="1.000000" />
                   </svg>
                 </a>
               </li>
@@ -560,10 +566,10 @@
           </div>
         </div>
         
-          <div class="footer__copyright">
-          <div class="copyright__container">
-              <span class="text">Copyright ©TemplatesJungle. 2022. All right reserved</span>
-              <span class="text">Design by: Designer</span>
+          <div class="footer__copyright copyright-footer">
+          <div class="copyright-footer__container">
+              <span class="copyright-footer__text">Copyright ©TemplatesJungle. 2022. All right reserved</span>
+              <span class="copyright-footer__text">Design by: Designer</span>
           </div>
           </div>
         
